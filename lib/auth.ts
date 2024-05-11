@@ -15,9 +15,9 @@ export const {
     session: { strategy: 'jwt' },
     providers: [
         Google({
-            profile(profile) : any {
-                return { role: profile.role ?? "user"}
-            },
+            // profile(profile) : any {
+            //     return { role: profile.role ?? "user"}
+            // },
         })
     ],    
     callbacks: {
